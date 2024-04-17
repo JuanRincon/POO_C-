@@ -10,6 +10,7 @@ namespace Accesosrs
     {
         private double sueldo;
         private double impuesto;
+        private string log;
 
         public void Muestra()
         {
@@ -19,23 +20,48 @@ namespace Accesosrs
         // Accesor, get, y set
         public void set_sueldo(double pSueldo)
         {
-            sueldo = pSueldo;
+            if (pSueldo < 5000 || pSueldo > 15000)
+                LogError("Sueldo ilegal " + pSueldo.ToString());
+            else    
+                sueldo = pSueldo;
         }
 
-        public double get_sueldo()
+        public double get_sueldo(int pPassword)
         {
-            return sueldo;
+            if (pPassword != 12345)
+            {
+                LogError("Password ilegal");
+                return 0.0;
+            }
+            else
+                return sueldo;
         }
 
-        public double get_impuesto()
+        public double get_impuesto(int pPassword)
         {
-            return impuesto;
+            if (pPassword != 12345)
+            {
+                LogError("Password ilegal");
+                return 0.0;
+            }
+            else
+                return impuesto;
         }
 
         // Mutator
         public void CalculaImpuesto()
         {
             impuesto = sueldo * 0.16;
+        }
+
+        private void LogError(string pError)
+        {
+            log += pError + "\r\n";
+        }
+
+        public void MuestraLog()
+        {
+            Console.WriteLine(log);
         }
     }
 }
