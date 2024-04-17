@@ -1,0 +1,7 @@
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\bin\Debug\Ambitos.exe.config
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\bin\Debug\Ambitos.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\bin\Debug\Ambitos.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\obj\Debug\Ambitos.csproj.AssemblyReference.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\obj\Debug\Ambitos.csproj.CoreCompileInputs.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\obj\Debug\Ambitos.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Ambitos\obj\Debug\Ambitos.pdb

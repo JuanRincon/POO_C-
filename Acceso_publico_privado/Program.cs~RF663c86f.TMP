@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Declaracion_clases
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+            // Mostramos los datos
+            calcu1.Muestra();
+
+            // Invocamos metodo
+            calcu1.Suma();
+
+            // Mostramos nuevamento los datos
+            calcu1.Muestra();
+
+            //-----------
+            Console.WriteLine("---------------------");
+            // Creamos otro objeto y asignamos valores
+        }
+    }
+}

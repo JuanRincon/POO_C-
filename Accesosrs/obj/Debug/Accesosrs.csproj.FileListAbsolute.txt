@@ -1,0 +1,7 @@
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\bin\Debug\Accesosrs.exe.config
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\bin\Debug\Accesosrs.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\bin\Debug\Accesosrs.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\obj\Debug\Accesosrs.csproj.AssemblyReference.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\obj\Debug\Accesosrs.csproj.CoreCompileInputs.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\obj\Debug\Accesosrs.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Accesosrs\obj\Debug\Accesosrs.pdb

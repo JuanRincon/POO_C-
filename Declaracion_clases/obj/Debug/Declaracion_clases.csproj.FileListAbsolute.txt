@@ -1,0 +1,7 @@
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\bin\Debug\Declaracion_clases.exe.config
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\bin\Debug\Declaracion_clases.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\bin\Debug\Declaracion_clases.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\obj\Debug\Declaracion_clases.csproj.AssemblyReference.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\obj\Debug\Declaracion_clases.csproj.CoreCompileInputs.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\obj\Debug\Declaracion_clases.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Declaracion_clases\obj\Debug\Declaracion_clases.pdb

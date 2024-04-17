@@ -1,0 +1,3 @@
+A partir de la carpeta Accesors se continuará manejando el proyecto a través
+de repositorios en Git, para ver el avance revisar los logs que describirán 
+el avance o tema relacionado
