@@ -6,46 +6,35 @@ using System.Threading.Tasks;
 
 namespace Accesosrs
 {
-    class CEmpleado
+    class CEmpleado  // En esta parte se redujo el código para simplificar el problema
     {
         private double sueldo;
         private double impuesto;
-        private string log;
 
         public void Muestra()
         {
             Console.WriteLine("Sueldo={0}, impuesto={1}", sueldo, impuesto);
         }
 
-        // Accesor, get, y set
-        public void set_sueldo(double pSueldo)
-        {
-            if (pSueldo < 5000 || pSueldo > 15000)
-                LogError("Sueldo ilegal " + pSueldo.ToString());
-            else    
-                sueldo = pSueldo;
+        public double Sueldo  // Para este caso tenemos propiedad de lectura y escritura
+        {                      // pero se puede usar sólo una de estas dependiendo de la necesidad
+            get
+            {
+                return sueldo;   // Propiedad de lectura
+            }
+
+            set
+            {
+                sueldo = value;  // Propiedad de escritura
+            }
         }
 
-        public double get_sueldo(int pPassword)
+        public double Impuesto
         {
-            if (pPassword != 12345)
+            get
             {
-                LogError("Password ilegal");
-                return 0.0;
-            }
-            else
-                return sueldo;
-        }
-
-        public double get_impuesto(int pPassword)
-        {
-            if (pPassword != 12345)
-            {
-                LogError("Password ilegal");
-                return 0.0;
-            }
-            else
                 return impuesto;
+            }
         }
 
         // Mutator
@@ -54,14 +43,5 @@ namespace Accesosrs
             impuesto = sueldo * 0.16;
         }
 
-        private void LogError(string pError)
-        {
-            log += pError + "\r\n";
-        }
-
-        public void MuestraLog()
-        {
-            Console.WriteLine(log);
-        }
     }
 }
