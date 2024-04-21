@@ -4,3 +4,4 @@ D:\DiscoExtraible\Estudio\Programación\POO_C#\Acceso_publico_privado\bin\Debug\
 D:\DiscoExtraible\Estudio\Programación\POO_C#\Acceso_publico_privado\obj\Debug\Acceso_publico_privado.csproj.CoreCompileInputs.cache
 D:\DiscoExtraible\Estudio\Programación\POO_C#\Acceso_publico_privado\obj\Debug\Declaracion_clases.exe
 D:\DiscoExtraible\Estudio\Programación\POO_C#\Acceso_publico_privado\obj\Debug\Declaracion_clases.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Acceso_publico_privado\obj\Debug\Acceso_publico_privado.csproj.AssemblyReference.cache

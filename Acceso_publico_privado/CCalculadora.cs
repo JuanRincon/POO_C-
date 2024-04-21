@@ -8,24 +8,33 @@ namespace Acceso_publico_privado
 {
     class CCalculadora
     {
-        // Declaramos los atributos
-        public double a;
-        public double b;
-
-        // Declaramos el dato
-        private double r;
-
         // Declaromos los metodos
-        public void Suma()
+        public double Suma(double a, double b)
         {
-            // Se lleva a cabo una acción
+            double r = 0.0;
+   
             r = a + b;
-            Muestra();
+
+            return r;
         }
 
-        public void Muestra()
+        public int Suma(int a, int b)
         {
-            Console.WriteLine("a={0}, b={1}, r={2}", a, b, r);
+            int r = 0;
+
+            r = a + b;
+
+            return r;
         }
+
+        public int Suma(int a, int b, int c)
+        {
+            int r = 0;
+
+            r = a + b + c;
+
+            return r;
+        }
+
     }
 }

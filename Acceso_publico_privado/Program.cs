@@ -10,36 +10,20 @@ namespace Acceso_publico_privado
     {
         static void Main(string[] args)
         {
-            // Creamos intancia
-            CCalculadora calcu1 = new CCalculadora();
+            int rInt = 0;
+            double rDoub = 0.0;
 
-            // Accedemos a los atributos para colocar información
-            calcu1.a = 4;
-            calcu1.b = 3;
-            // Mostramos los datos
-            calcu1.Muestra();
+            CCalculadora calcu = new CCalculadora();
 
-            // Intento acceder al dato privado
-            // No se puede
-            //calcu1.r = 8;
-            //Console.WriteLine(calcu1.r);
+            rInt = calcu.Suma(5, 3, 8);
 
-            // Invocamos metodo
-            calcu1.Suma();
+            Console.WriteLine("El resultado es {0}", rInt);
 
-            // Mostramos nuevamento los datos
-            calcu1.Muestra();
+            rDoub = calcu.Suma(3.9, 4.5);
 
-            //-----------
-            Console.WriteLine("---------------------");
-            // Creamos otro objeto y asignamos valores
-            CCalculadora miCalcu = new CCalculadora();
-            miCalcu.a = 18;
-            miCalcu.b = 53;
-            miCalcu.Muestra();
-            miCalcu.Suma();
-            calcu1.Muestra();
-            miCalcu.Muestra();
+            Console.WriteLine("El resultado es {0}", rDoub);
+
         }
+
     }
 }
