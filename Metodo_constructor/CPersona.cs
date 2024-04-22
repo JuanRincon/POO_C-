@@ -52,6 +52,19 @@ namespace Metodo_constructor
         {
             Console.WriteLine("Nombre: {0}, Edad: {1}", nombre, edad);
         }
+
+        // Método destructor
+        // Nos permite garantizar un la forma correcta del cierre del objeto
+        // Haciendo liberación de mejoria, se puede desde aca cerrar archivos,
+        // verificar que se haya desconectado correctamente de la red,
+        // limpiar los valores de las variables por seguridad
+        ~CPersona()   // Método destructor        
+        {
+            Console.WriteLine("Adios desde {0}", nombre);
+            // Limpiamos información
+            nombre = "";
+            edad = 0;
+        }
       
     }
 }
