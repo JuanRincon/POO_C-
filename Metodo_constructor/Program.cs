@@ -12,10 +12,11 @@ namespace Metodo_constructor
         {
             CPersona p1 = new CPersona();
 
-            p1.Nombre = "Juan";
-            p1.Edad = 27;
+            CPersona p2 = new CPersona("Juan", 27);
 
             p1.muestra();
+            p2.muestra();
+
         }
     }
 }

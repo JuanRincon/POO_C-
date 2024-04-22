@@ -1,3 +1,5 @@
 A partir de la carpeta Accesors se continuará manejando el proyecto a través
 de repositorios en Git, para ver el avance revisar los logs que describirán 
 el avance o tema relacionado
+
+Para sobrecarga de métodos se hizo un repositorio de git en Acceso_publico_privado

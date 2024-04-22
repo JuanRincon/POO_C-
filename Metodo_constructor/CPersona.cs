@@ -13,9 +13,23 @@ namespace Metodo_constructor
 
         public CPersona()
         {
-            Console.WriteLine("Estamos en el constructor");
-            nombre = "";
-            edad = 0;
+            string tempEdad = "";
+
+            Console.WriteLine("Estamos en el cosntructor");
+            Console.WriteLine("Dame el nombre");
+            nombre = Console.ReadLine();
+            Console.WriteLine("Dame la edad");
+            tempEdad = Console.ReadLine();
+            edad = Convert.ToInt32(tempEdad);
+        }
+
+        // Sobrecarga
+        public CPersona(string pNombre, int pEdad)
+        {
+            Console.WriteLine("Estamso en el constructor sobrecargado");
+
+            nombre = pNombre;
+            edad = pEdad;
         }
 
         public string Nombre
