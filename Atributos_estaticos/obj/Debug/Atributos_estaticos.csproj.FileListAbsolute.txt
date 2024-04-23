@@ -1,0 +1,7 @@
+C:\Users\Curum\source\repos\Atributos_estaticos\bin\Debug\Atributos_estaticos.exe.config
+C:\Users\Curum\source\repos\Atributos_estaticos\bin\Debug\Atributos_estaticos.exe
+C:\Users\Curum\source\repos\Atributos_estaticos\bin\Debug\Atributos_estaticos.pdb
+C:\Users\Curum\source\repos\Atributos_estaticos\obj\Debug\Atributos_estaticos.csproj.AssemblyReference.cache
+C:\Users\Curum\source\repos\Atributos_estaticos\obj\Debug\Atributos_estaticos.csproj.CoreCompileInputs.cache
+C:\Users\Curum\source\repos\Atributos_estaticos\obj\Debug\Atributos_estaticos.exe
+C:\Users\Curum\source\repos\Atributos_estaticos\obj\Debug\Atributos_estaticos.pdb
