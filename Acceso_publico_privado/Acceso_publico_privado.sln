@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34729.46
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acceso_publico_privado", "Acceso_publico_privado.csproj", "{519E7DEF-09A0-4BBC-BA7B-70A75B39867B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodos_estaticos", "Metodos_estaticos.csproj", "{519E7DEF-09A0-4BBC-BA7B-70A75B39867B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

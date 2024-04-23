@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Metodos_estaticos
+namespace Acceso_publico_privado
 {
     class Program
     {
@@ -24,18 +24,6 @@ namespace Metodos_estaticos
             // Clase con metodos  estaticos
 
             r = CCalculadoraS.suma(6, 9);
-            Console.WriteLine("La suma es {0}", r);
-
-            r = CCalculadoraS.resta(45, 67);
-            Console.WriteLine("La suma es {0}", r);
-
-            // Si queremos implementar el objeto saludo de la clase CCalculadoraS
-            // toca crear un objeto
-            CCalculadoraS sCal = new CCalculadoraS();
-            sCal.saludo();
-
-            // Si invocamos a uno de los elementos estaticos como objeto no funciona
-            // sCal.suma();
         }
 
     }

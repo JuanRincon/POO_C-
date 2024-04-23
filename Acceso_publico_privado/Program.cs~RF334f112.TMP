@@ -28,14 +28,6 @@ namespace Metodos_estaticos
 
             r = CCalculadoraS.resta(45, 67);
             Console.WriteLine("La suma es {0}", r);
-
-            // Si queremos implementar el objeto saludo de la clase CCalculadoraS
-            // toca crear un objeto
-            CCalculadoraS sCal = new CCalculadoraS();
-            sCal.saludo();
-
-            // Si invocamos a uno de los elementos estaticos como objeto no funciona
-            // sCal.suma();
         }
 
     }
