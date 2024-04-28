@@ -1,2 +1,6 @@
 Notas.txt
-.vs
+./Metodo_constructor/.vs/Metodo_cosntructor/v16/.suo
+./Metodo_constructor/bin/*.*
+./Metodo_constructor/obj/*.*
+./*.TMP
+
