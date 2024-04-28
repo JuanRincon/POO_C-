@@ -11,6 +11,14 @@ namespace Herencia
         private string puesto;
         private double salario;
 
+        public CEmpleado(string pNombre, int pEdad, string pPuesto, double pSalario)
+            : base(pNombre, pEdad)
+        {
+            Console.WriteLine("Constructor Empleado");
+            puesto = pPuesto;
+            salario = pSalario;
+        }
+
         public string Puesto
         {
             get

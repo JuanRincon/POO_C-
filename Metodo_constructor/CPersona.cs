@@ -8,6 +8,13 @@ namespace Herencia
 {
     class CPersona
     {
+        public CPersona(string pNombre, int pEdad)
+        {
+            Console.WriteLine("Constructor de Persona");
+            nombre = pNombre;
+            edad = pEdad;
+        }
+
         private string nombre;
         private int edad;
 
