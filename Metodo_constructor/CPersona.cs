@@ -15,8 +15,8 @@ namespace Herencia
             edad = pEdad;
         }
 
-        private string nombre;
-        private int edad;
+        protected string nombre;
+        protected int edad;
 
         public string Nombre
         {

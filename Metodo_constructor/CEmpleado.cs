@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Herencia
 {
-    class CEmpleado:CPersona
+    sealed class CEmpleado:CPersona   // Al colocar el sealed a la clase la sellamos
+                                      // lo que significa que no se puede heredar de ella
     {
         private string puesto;
         private double salario;
@@ -47,8 +48,13 @@ namespace Herencia
 
         public void ponerDatos(string pNombre, int pEdad, string pPuesto, double pSalario)
         {
-            Nombre = pNombre;   // Ojo nos muestra la propiedad de la superclase no el atributo
-            Edad = pEdad;
+            // Las dos propiedades siguientes ya no las necesito porque nombre y edad
+            // ya son protected y no privados desde la clase base o padre
+            //Nombre = pNombre;   // Ojo nos muestra la propiedad de la superclase no el atributo
+            //Edad = pEdad;
+
+            nombre = pNombre;
+            edad = pEdad;
 
             puesto = pPuesto;
             salario = pSalario;
