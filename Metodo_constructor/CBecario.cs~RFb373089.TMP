@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Metodo_constructor
+{
+    class CBecario
+    {
+        private int horasBeca;
+
+        public int HorasBeca
+        {
+            get
+            {
+                return horasBeca;
+            }
+
+            set
+            {
+                horasBeca = value;
+            }
+        }
+
+        public void MuestraBecario()
+        {
+            Console.WriteLine("Cantidad de horas: {0}", horasBeca);
+        }
+    }
+}
