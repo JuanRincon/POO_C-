@@ -14,7 +14,6 @@ namespace Agregacion
         public CPropietario(string pNombre)
         {
             nombre = pNombre;
-            propiedad = new CEdificio("Av 2 numero 32", 7, 4);
         }
 
         public void MostrarPropiedad()
@@ -27,6 +26,12 @@ namespace Agregacion
 
             else
                 Console.WriteLine("{0} aun no tiene propiedades", nombre);
+        }
+
+        public void AdicionaPropiedad(CEdificio pEdificio)
+        {
+            if (pEdificio != null)
+                propiedad = pEdificio;
         }
     }
 }

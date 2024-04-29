@@ -5,3 +5,10 @@ C:\Users\Curum\source\repos\Agregacion\obj\Debug\Agregacion.csproj.AssemblyRefer
 C:\Users\Curum\source\repos\Agregacion\obj\Debug\Agregacion.csproj.CoreCompileInputs.cache
 C:\Users\Curum\source\repos\Agregacion\obj\Debug\Agregacion.exe
 C:\Users\Curum\source\repos\Agregacion\obj\Debug\Agregacion.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\bin\Debug\Agregacion.exe.config
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\bin\Debug\Agregacion.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\bin\Debug\Agregacion.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\obj\Debug\Agregacion.csproj.AssemblyReference.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\obj\Debug\Agregacion.csproj.CoreCompileInputs.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\obj\Debug\Agregacion.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Agregacion\obj\Debug\Agregacion.pdb
