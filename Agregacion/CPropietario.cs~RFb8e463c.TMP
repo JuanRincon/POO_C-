@@ -28,21 +28,6 @@ namespace Agregacion
             else
                 Console.WriteLine("{0} aun no tiene propiedades", nombre);
         }
-
-        // Ciudado con esto, rompe el encapsulameinto
-        // No es recomendable hacer esto de abajo cuando se maneja composición
-        //public CEdificio Propiedad 
-        //{
-        //    get
-        //    {
-        //        return propiedad; 
-        //    }
-
-        //    set
-        //    {
-        //        propiedad = value;
-        //    }
-        //}
     }
 }
  
