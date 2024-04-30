@@ -1,0 +1,7 @@
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\bin\Debug\FuncionesVirtuales_overRride_Sealed.exe.config
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\bin\Debug\FuncionesVirtuales_overRride_Sealed.exe
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\bin\Debug\FuncionesVirtuales_overRride_Sealed.pdb
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\obj\Debug\FuncionesVirtuales_overRride_Sealed.csproj.AssemblyReference.cache
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\obj\Debug\FuncionesVirtuales_overRride_Sealed.csproj.CoreCompileInputs.cache
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\obj\Debug\FuncionesVirtuales_overRride_Sealed.exe
+C:\Users\Curum\source\repos\FuncionesVirtuales_overRride_Sealed\obj\Debug\FuncionesVirtuales_overRride_Sealed.pdb
