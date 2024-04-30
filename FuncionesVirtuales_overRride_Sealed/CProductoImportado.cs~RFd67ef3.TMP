@@ -16,7 +16,7 @@ namespace FuncionesVirtuales_overRride_Sealed
             impuesto = pImpuesto;
         }
 
-        public sealed override void CalculaPrecio()
+        public override void CalculaPrecio()
         {
             Console.WriteLine("Calcula precio de importado");
             precioVenta = (precioCompra * (1 + impuesto)) * 1.30;
