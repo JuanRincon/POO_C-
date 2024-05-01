@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FuncionesVirtuales_overRride_Sealed
+namespace Clase_abstracta
 {
-    class CProducto
+    abstract class CProducto
     {
-        private string descripcion;
+        protected string descripcion;
         protected double precioCompra;
         protected double precioVenta;
 
@@ -25,9 +25,6 @@ namespace FuncionesVirtuales_overRride_Sealed
             precioVenta = precioCompra * 1.3;
         }
 
-        public void MuestraVenta()
-        {
-            Console.WriteLine("{0} se vende en {1}", descripcion, precioVenta);
-        }
+        public abstract void MuestraVenta();
     }
 }

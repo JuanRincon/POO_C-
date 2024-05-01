@@ -4,35 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FuncionesVirtuales_overRride_Sealed
+namespace Clase_abstracta
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Funcion virtual y overrride con sealed
+            // Clases abstractas y metodos abstractos
 
-            // Creamos producto
-            CProducto uno = new CProducto("Bicicleta", 2500.35);
+            // No podemos intanciar clase abstracta directamente
+            // CProducto miProducto = new CProducto("bicicleta", 3500);
 
-            uno.CalculaPrecio();
-            uno.MuestraVenta();
+            CProductoImportado miProdImp = new CProductoImportado("Motocicleta", 350000, 0.15);
+            CProductoDetenido miProdDet = new CProductoDetenido("Televisor", 15000, 0.15, 0.30);
 
-            Console.WriteLine("---------");
+            miProdImp.CalculaPrecio();
+            miProdDet.CalculaPrecio();
 
-            // Creamos producto importado
-            CProductoImportado dos = new CProductoImportado("Bicicleta importada", 2500.35, 0.15);
-
-            dos.CalculaPrecio();
-            dos.MuestraVenta();
-
-            Console.WriteLine("-----------");
-
-            // Creamos producto con multa
-            CProductoDetenido tres = new CProductoDetenido("Bici detenida", 2500.35, 0.15, 500.8);
-
-            tres.CalculaPrecio();
-            tres.MuestraVenta();
+            miProdImp.MuestraVenta();
+            miProdDet.MuestraVenta();
         }
     }
 }

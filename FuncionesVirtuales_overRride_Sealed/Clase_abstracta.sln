@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34729.46
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionesVirtuales_overRride_Sealed", "FuncionesVirtuales_overRride_Sealed.csproj", "{077DAA03-B541-4CC6-948C-561829C16574}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_abstracta", "Clase_abstracta.csproj", "{077DAA03-B541-4CC6-948C-561829C16574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
