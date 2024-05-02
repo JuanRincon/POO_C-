@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Casting
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Casting
+
+            // Podemos hacer casting de una clase en la cadena de herencia
+            // CProductoImportado es un CProducto
+
+            CProducto p1 = new CProductoImportado("Tele", 2500, 0.15);
+
+            p1.CalculaPrecio();
+            Console.WriteLine(p1);
+
+            // No puede invocar lo que no es común
+            //p1.Mensaje();
+
+            ((CProductoImportado)p1).Mensaje();
+
+            Console.WriteLine("-------");
+            // CProducto es un object
+        }
+    }
+}

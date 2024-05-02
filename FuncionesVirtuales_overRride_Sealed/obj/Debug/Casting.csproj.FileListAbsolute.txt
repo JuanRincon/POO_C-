@@ -1,0 +1,7 @@
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\bin\Debug\FuncionesVirtuales_overRride_Sealed.exe.config
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\bin\Debug\FuncionesVirtuales_overRride_Sealed.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\bin\Debug\FuncionesVirtuales_overRride_Sealed.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\obj\Debug\Casting.csproj.AssemblyReference.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\obj\Debug\Casting.csproj.CoreCompileInputs.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\obj\Debug\FuncionesVirtuales_overRride_Sealed.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\FuncionesVirtuales_overRride_Sealed\obj\Debug\FuncionesVirtuales_overRride_Sealed.pdb

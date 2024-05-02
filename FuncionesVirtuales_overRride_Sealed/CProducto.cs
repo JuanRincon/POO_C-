@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clase_abstracta
+namespace Casting
 {
-    abstract class CProducto
+    class CProducto
     {
         protected string descripcion;
         protected double precioCompra;
@@ -25,6 +25,9 @@ namespace Clase_abstracta
             precioVenta = precioCompra * 1.3;
         }
 
-        public abstract void MuestraVenta();
+        public override string ToString()
+        {
+            return string.Format("{0} cuesta {1} se vende en {2}", descripcion, precioCompra, precioVenta);
+        }
     }
 }

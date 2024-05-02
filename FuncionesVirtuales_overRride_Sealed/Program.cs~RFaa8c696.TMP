@@ -22,6 +22,17 @@ namespace Casting
 
             Console.WriteLine("----------");
 
+            //CProducto d1 = new CProducto("Calambombo", 2500);
+
+            //d1.CalculaPrecio();
+            //Console.WriteLine(d1);
+
+            //((CProductoImportado)p1).CalculaPrecio();
+            //Console.WriteLine(p1);
+
+
+
+
             // No puede invocar lo que no es común
             //p1.Mensaje();
 
@@ -29,13 +40,11 @@ namespace Casting
 
             Console.WriteLine("-------------------------------");
 
-            // CProducto es un object ya que object es la superclase de la que 
-            // descienden todas las demás clases, o sea que object es la clase
-            // padre de CProducto
-            object p2 = new CProducto("Radio", 300);
+            // CProducto es un object
+            object p2 = new CProductoImportado("Radio", 300, 0.16);
 
             ((CProducto)p2).CalculaPrecio();
-            Console.WriteLine((CProducto)p2);
+            Console.WriteLine((CProductoImportado)p2);
 
             Console.WriteLine("--------------------------------");
 

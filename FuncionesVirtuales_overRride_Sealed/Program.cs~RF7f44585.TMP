@@ -20,24 +20,20 @@ namespace Casting
             p1.CalculaPrecio();
             Console.WriteLine(p1);
 
-            Console.WriteLine("----------");
-
             // No puede invocar lo que no es común
             //p1.Mensaje();
 
             ((CProductoImportado)p1).Mensaje();
 
-            Console.WriteLine("-------------------------------");
+            Console.WriteLine("-------");
 
-            // CProducto es un object ya que object es la superclase de la que 
-            // descienden todas las demás clases, o sea que object es la clase
-            // padre de CProducto
+            // CProducto es un object
             object p2 = new CProducto("Radio", 300);
-
+            
             ((CProducto)p2).CalculaPrecio();
             Console.WriteLine((CProducto)p2);
 
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine("----------");
 
             // Object no es un CProducto
             //CProducto p3 = new object();
@@ -63,12 +59,7 @@ namespace Casting
             Console.WriteLine(a);
 
             double y = b;
-            Console.WriteLine(y);
 
-            // De un tipo mayor a uno menor
-            //b = c;
-            b = (float)c;
-            Console.WriteLine(b);
         }
 
         public static void Detecta(CProducto pProducto)
