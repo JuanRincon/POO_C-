@@ -1,0 +1,7 @@
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\obj\Debug\Polimorfismo.csproj.AssemblyReference.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\obj\Debug\Polimorfismo.csproj.CoreCompileInputs.cache
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\bin\Debug\Polimorfismo.exe.config
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\bin\Debug\Polimorfismo.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\bin\Debug\Polimorfismo.pdb
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\obj\Debug\Polimorfismo.exe
+D:\DiscoExtraible\Estudio\Programación\POO_C#\Polimorfismo\obj\Debug\Polimorfismo.pdb
