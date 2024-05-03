@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Accesosrs
+{
+    class CEmpleado
+    {
+        private double sueldo;
+        private double impuesto;
+        private float tImp;
+        string dato = "";
+        int elec = 0;
+
+        CContador c1 = new CContador();
+        public void Muestra()
+        {
+            Console.WriteLine("Sueldo={0}, impuesto={1}", sueldo, impuesto);
+        }
+
+        // Accesor, get, y set
+        public void set_sueldo(double pSueldo)
+        {
+            sueldo = pSueldo;
+        }
+
+        public double get_sueldo()
+        {
+            return sueldo;
+        }
+
+        public double get_impuesto()
+        {
+            return impuesto;
+        }
+
+        // Mutator
+        public void CalculaImpuesto()
+        {
+            Console.WriteLine("seleccione 1. Si añade tasa de impuesto manual ");
+            Console.WriteLine("seleccione 2. Si deja tasa por defecto ");
+            dato = Console.ReadLine();
+            elec = Convert.ToInt32(dato);
+            if (elec == 2)
+            {
+                impuesto = sueldo * 0.16;
+            }
+            else
+            {
+                tImp = c1.cImp();
+                impuesto = sueldo * tImp;
+            }
+        }
+    }
+}

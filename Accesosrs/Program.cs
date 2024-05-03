@@ -11,6 +11,7 @@ namespace Accesosrs
         static void Main(string[] args)
         {
             double impuesto = 0.0;
+
             // Creamos objeto
             CEmpleado Juan = new CEmpleado();
 
