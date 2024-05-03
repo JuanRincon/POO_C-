@@ -10,7 +10,11 @@ namespace Accesosrs
     {
         private double sueldo;
         private double impuesto;
+        private double tImp;
+        string dato = "";
+        int elec = 0;
 
+        CContador c1 = new CContador();
         public void Muestra()
         {
             Console.WriteLine("Sueldo={0}, impuesto={1}", sueldo, impuesto);
@@ -40,7 +44,19 @@ namespace Accesosrs
         // Mutator
         public void CalculaImpuesto()
         {
-            impuesto = sueldo * 0.16;
+            Console.WriteLine("seleccione 1. Si añade tasa de impuesto manual ");
+            Console.WriteLine("seleccione 2. Si deja tasa por defecto ");
+            dato = Console.ReadLine();
+            elec = Convert.ToInt32(dato);
+            if (elec == 2)
+            {
+                impuesto = sueldo * 0.16;
+            }
+            else
+            {
+                tImp = c1.cImp();
+                impuesto = sueldo * tImp;
+            }
         }
 
     }

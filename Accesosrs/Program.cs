@@ -10,6 +10,11 @@ namespace Accesosrs
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+=======
+            double impuesto = 0.0;
+
+>>>>>>> accesors2
             // Creamos objeto
             CEmpleado Juan = new CEmpleado();
 
