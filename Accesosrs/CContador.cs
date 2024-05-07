@@ -16,8 +16,7 @@ namespace Accesosrs
             dato = dt;
         }
 
-        double TasaImp
-            get { return tasaImp; }
+        double TasaImp { get { return tasaImp; } set { tasaImp = value; } }
 
         public double cImp()
         {
