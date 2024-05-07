@@ -8,12 +8,16 @@ namespace Accesosrs
 {
     class CContador
     {
-        double tasaImp = 0.0;
-        string dato = "";
-        public CContador()
+        private double tasaImp = 0.0;
+        private string dato = "";
+        public CContador(double tImp, string dt)
         {
-            
+            tasaImp = tImp;
+            dato = dt;
         }
+
+        double TasaImp { get { return tasaImp; } set { tasaImp = value; } }
+
         public double cImp()
         {
             Console.WriteLine("Ingrese la tasa de impuesto");

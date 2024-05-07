@@ -10,11 +10,11 @@ namespace Accesosrs
     {
         private double sueldo;
         private double impuesto;
-        private double tImp;
         string dato = "";
         int elec = 0;
 
-        CContador c1 = new CContador();
+        CContador c1 = new CContador(25, "50");
+
         public void Muestra()
         {
             Console.WriteLine("Sueldo={0}, impuesto={1}", sueldo, impuesto);
